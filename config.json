@@ -1,0 +1,10 @@
+{
+    "development": {
+        "storage": "bookClub.sqlite",
+        "dialect": "sqlite"
+    },
+    "production": {
+        "use_env_variable" : "DATABASE_URL",
+        "dialect": "postgres"
+    }
+}
